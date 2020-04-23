@@ -6,6 +6,7 @@ window.addEventListener("load", function() {
         document.getElementById("message").innerHTML += "Bye, ";
     });
     document.getElementById("exit").addEventListener("click", function() {
-        window.history.back();
+        //window.history.back();
+        window.close();
     });
 });
