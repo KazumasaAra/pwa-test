@@ -7,6 +7,6 @@ window.addEventListener("load", function() {
     });
     document.getElementById("exit").addEventListener("click", function() {
         //window.history.back();
-        window.close();
+        window.open(‘about:blank’,’_self’).close();
     });
 });
